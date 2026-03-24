@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<title>Aurum Garage</title>
+
+<style>
+body {
+  margin:0;
+  font-family:'Poppins', sans-serif;
+  background:#0f1115;
+  color:#bfc0c0;
+}
+
+/* HEADER */
+header {
+  background:#0f1115;
+  padding:15px 25px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo img {
+  height:125px;
+  object-fit:contain;
+}
+
+/* BOUTON */
+.call-btn {
+  background:#8c6a4a;
+  color:white;
+  padding:10px 18px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* HERO */
+.hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2') center/cover no-repeat;
+  padding:150px 20px;
+  text-align:center;
+}
+
+.hero h1 {
+  font-size:40px;
+  color:#a3b18a;
+}
+
+.hero p {
+  margin-top:10px;
+  color:#d0d0d0;
+}
+
+/* BOUTON PRINCIPAL */
+.main-btn {
+  margin-top:25px;
+  display:inline-block;
+  padding:14px 28px;
+  background:#8c6a4a;
+  color:white;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* SECTION */
+.section {
+  padding:70px 20px;
+  max-width:850px;
+  margin:auto;
+}
+
+h2 {
+  color:#a3b18a;
+  margin-bottom:25px;
+}
+
+/* TEXTE */
+.text-block {
+  line-height:1.7;
+}
+
+/* BLOCS */
+.block {
+  margin-bottom:50px;
+}
+
+/* IMAGES */
+.img-left {
+  float:left;
+  width:160px;
+  margin:5px 18px 5px 0;
+  border-radius:8px;
+}
+
+.img-right {
+  float:right;
+  width:160px;
+  margin:5px 0 5px 18px;
+  border-radius:8px;
+}
+
+.clear {
+  clear:both;
+}
+
+/* CTA */
+.cta {
+  text-align:center;
+  margin:60px 0;
+}
+
+/* CONTACT */
+.contact {
+  text-align:center;
+}
+
+.contact-item {
+  margin:15px 0;
+}
+
+.contact-label {
+  font-size:14px;
+  color:#888;
+}
+
+.contact a {
+  color:#a3b18a;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* FOOTER */
+footer {
+  background:#1c1f26;
+  padding:25px;
+  text-align:center;
+  color:#777;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <img src="logo.png">
+  </div>
+  <a href="tel:+33751378316" class="call-btn">Appeler</a>
+</header>
+
+<section class="hero">
+  <h1>Réparation automobile à domicile</h1>
+  <p>Un service professionnel directement chez vous</p>
+
+  <a href="tel:+33751378316" class="main-btn">Prendre rendez-vous</a>
+</section>
+
+<section class="section">
+
+  <h2>Un service simple et efficace</h2>
+
+  <div class="block">
+    <img src="photo1.jpeg" class="img-left">
+    <div class="text-block">
+      Aurum Garage se déplace directement à votre domicile ou sur votre lieu de travail,
+      afin de simplifier la réparation de votre véhicule.
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <div class="block">
+    <img src="photo2.jpeg" class="img-right">
+    <div class="text-block">
+      Chaque intervention est réalisée sur place avec précision,
+      en privilégiant des solutions fiables et durables.
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <h2>Nos interventions</h2>
+
+  <div class="block">
+    <img src="photo3.jpeg" class="img-left">
+    <div class="text-block">
+      <strong>Entretien & réparations</strong><br>
+      Vidange, freins, diagnostic, embrayage, distribution et moteur.
+    </div>
+    <div class="clear"></div>
+  </div>
+
+</section>
+
+<section class="cta">
+  <p>Besoin d’une intervention ?</p>
+  <a href="tel:+33751378316" class="main-btn">Demander une intervention</a>
+</section>
+
+<section class="section contact">
+
+  <h2>Contact</h2>
+
+  <div class="contact-item">
+    <div class="contact-label">Téléphone</div>
+    <a href="tel:+33751378316">+33 7 51 37 83 16</a>
+  </div>
+
+  <div class="contact-item">
+    <div class="contact-label">Email</div>
+    <a href="mailto:contact.aurumgarage@gmail.com">contact.aurumgarage@gmail.com</a>
+  </div>
+
+  <div class="contact-item">
+    <div class="contact-label">Instagram</div>
+    <a href="https://instagram.com/aurumgarage26">@aurumgarage26</a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Aurum Garage
+</footer>
+
+</body>
+</html>
